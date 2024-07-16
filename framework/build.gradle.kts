@@ -40,7 +40,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok:${lombokVersion}")
 
     api("org.apache.commons:commons-math3:3.6.1") // <4>
-    implementation("com.google.guava:guava:30.1.1-jre") // <5>
+    implementation("com.google.guava:guava:33.2.1-jre")
     implementation("org.ow2.asm:asm:9.2")
     implementation("com.fasterxml.jackson.core:jackson-core:${jacksonVersion}")
     implementation("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
