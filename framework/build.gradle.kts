@@ -10,7 +10,8 @@ plugins {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        val x = Integer.valueOf(property("net.agnes.javaVersion").toString()) // There has to be a better way
+        languageVersion.set(JavaLanguageVersion.of(x))
     }
 }
 
